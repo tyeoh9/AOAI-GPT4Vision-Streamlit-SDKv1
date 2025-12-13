@@ -111,6 +111,7 @@ st.sidebar.markdown(
 
 # Creating Home Page UI
 st.title("Traffic Monitor Assistant")
+st.warning("Unfortunately, my OpenAI tokens have expired :'(")
 main_container = st.container()
 col1, col2 = main_container.columns([1, 3])
 image_placeholder = col2.empty()
